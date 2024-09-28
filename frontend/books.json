@@ -1,0 +1,12 @@
+[
+  { "title": "Harry Potter and the Sorcerer's Stone", "author_id": 1, "published_year": 1997, "genre": "Fantasy" },
+  { "title": "A Game of Thrones", "author_id": 2, "published_year": 1996, "genre": "Fantasy" },
+  { "title": "The Great Gatsby", "author_id": 3, "published_year": 1925, "genre": "Classic" },
+  { "title": "To Kill a Mockingbird", "author_id": 4, "published_year": 1960, "genre": "Fiction" },
+  { "title": "1984", "author_id": 5, "published_year": 1949, "genre": "Dystopian" },
+  { "title": "Pride and Prejudice", "author_id": 6, "published_year": 1813, "genre": "Romance" },
+  { "title": "The Catcher in the Rye", "author_id": 7, "published_year": 1951, "genre": "Fiction" },
+  { "title": "The Hobbit", "author_id": 8, "published_year": 1937, "genre": "Fantasy" },
+  { "title": "Moby Dick", "author_id": 9, "published_year": 1851, "genre": "Adventure" },
+  { "title": "War and Peace", "author_id": 10, "published_year": 1869, "genre": "Historical Fiction" }
+]

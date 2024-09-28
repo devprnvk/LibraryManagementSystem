@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "J.K. Rowling", "bio": "Author of the Harry Potter series." },
+  { "id": 2, "name": "George R.R. Martin", "bio": "Author of A Game of Thrones." },
+  { "id": 3, "name": "F. Scott Fitzgerald", "bio": "Author of The Great Gatsby." },
+  { "id": 4, "name": "Harper Lee", "bio": "Author of To Kill a Mockingbird." },
+  { "id": 5, "name": "George Orwell", "bio": "Author of 1984." },
+  { "id": 6, "name": "Jane Austen", "bio": "Author of Pride and Prejudice." },
+  { "id": 7, "name": "J.D. Salinger", "bio": "Author of The Catcher in the Rye." },
+  { "id": 8, "name": "J.R.R. Tolkien", "bio": "Author of The Hobbit." },
+  { "id": 9, "name": "Herman Melville", "bio": "Author of Moby Dick." },
+  { "id": 10, "name": "Leo Tolstoy", "bio": "Author of War and Peace." }
+]
