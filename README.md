@@ -14,13 +14,30 @@ The Library Management System is a web application designed to facilitate the ma
 
 ## Technology Stack
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Node.js with Express
+- **Frontend**: HTML, CSS
+- **Backend**: Node.js, JavaScript
 - **Database**: MySQL
-- **Libraries/Frameworks**: [Add any additional libraries or frameworks used]
+- **Libraries/Frameworks**: Bootstrap, Postman
 
 ## Project Structure
-
+/library-management-system 
+├── /database │ 
+   ├── create_schema.sql │ 
+   └── insert_data.sql ├
+|── /queries │
+   ├── overdue_books.sql │ 
+   ├── popular_books.sql │ 
+   └── [other queries] 
+├── /frontend │ 
+   ├── /css │ 
+      └── style.css
+   ├── /js │
+      └── script.js
+      └── confirmation.js 
+   ├── /html │ 
+      └── index.html 
+      └── confirmation.html 
+   └── README.md
 
 ## Setup Instructions
 
@@ -35,26 +52,23 @@ The Library Management System is a web application designed to facilitate the ma
    ```bash
    git clone https://github.com/yourusername/library-management-system.git
 
-###Navigate to the project directory:
-  ``bash
-  cd library-management-system
+2. Navigate to the project directory:
+   ```bash
+   cd library-management-system
 
-####Install the required npm packages
+3. Install the required npm packages
+   ```bash
+   npm install
 
-bash
-Copy code
-npm install
-Set up your MySQL database:
+4. Set up your MySQL database:
+   Create a new database.
+   Run the create_schema.sql script to create necessary tables.
+   Run the insert_data.sql script to populate initial data.
+   Configure your database connection in frontend/script.js.
 
-Create a new database.
-Run the create_schema.sql script to create necessary tables.
-Run the insert_data.sql script to populate initial data.
-Configure your database connection in src/server.js.
+5. Start the application:
+   ```bash
+   node frontend/script.js
 
-Start the application:
-
-bash
-Copy code
-node src/server.js
 Access the application at http://localhost:3000 (or your configured port).
 
